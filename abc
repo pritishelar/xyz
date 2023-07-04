@@ -1,0 +1,144 @@
+Role of Biostatistician Role could be of different type
+Very collaborative
+• Active co-investigator
+• Helps develop aims and design
+• Brought in early in planning
+• Continues to input throughout trial planning and while study continues
+❑ Consultants
+• Inactive co-investigator
+• Often not brought in until either
+• You need a sample size calculation several days before submission
+• Trial has been criticized/rejected for lack of statistical input
+• You’ve finally collected all of the data and don’t know what to do next.
+• Only involved sparsely for planning or for analysis.
+Involve Statistician at earliest
+❖ Your trial can only benefit from inclusion of a statistician
+
+❖ Statisticians cannot rescue a poorly designed trial after the trial has begun.
+
+❖ “Statistical adjustment” in analysis plan does not always work.
+
+❖ Ignorance is not bliss:
+
+➢ Some clinical investigators are trained in statistics
+
+➢ But usually not all aspects!
+
+➢ Despite inclination to choose a particular design or analysis method, there might be better ways.
+Important Responsibilities of Statistician
+❖ Design
+o Choose most efficient design
+o Consider all aims of the study
+o Particular designs that might be useful
+
+• Cross-over
+• Pre-post
+• Factorial
+
+o Sample size considerations
+o Interim monitoring plan
+❖ Assistance in endpoint selection
+o Subjective vs. objective
+o Measurement issues
+
+Is there measurement error that should be considered?
+What if you are measuring pain? QOL?
+o Multiple endpoints (e.g. safety AND efficacy)
+o Patient benefit versus biologic/PK endpoint
+o Primary versus secondary
+o Continuous versus categorical outcomes
+
+Role of Biostatistics in Clinical trials
+❖ Design
+❖ Conduct
+
+❖ Analysis
+❖ Reporting in terms of controlling for and minimising biases
+❖ Confounding factors
+❖ Measuring random errors
+❖ Grasp of statistical methods is fundamental to understanding randomised trial methods and
+Results
+Parametric tests for hypothesis  testing: Analysis of variance  (ANOVA), t-test, repeat  measures ANOVA
+What is ANOVA 
+Analysis of Variance (ANOVA) is commonly performed on the data coming from  multicenter, placebo controlled clinical trials in order to evaluate the size of the  difference in efficacy between the study medication and placebo
+Framework of ANOVA
+❖ Want to study the effect of one or more qualitative variables on a quantitative outcome variable 
+❖ Qualitative variables are referred to as factors 
+❖ Characteristics that differentiates factors are referred to as levels (i.e., three  genotypes) of factors 
+One way ANOVA
+❖ The outcome variable is the variable you’re comparing 
+► Example : Change from Baseline of systolic blood pressure, blood clotting time, remission rate ❖ The factor variable is the categorical variable being used to define the groups ► e.g: Treatment groups, males vs females, control vs treatment groups 
+❖ Assume k samples (groups)  
+► e.g: 4 different dosage treatment groups 
+❖ The one-way is because each value is classified in exactly one way 
+► e.g: Comparison across factors(Groups) at one timepoint difference between change from baseline of  systolic BP or blood clotting time or remission rate 
+► ANOVA easily generalizes to more factors 
+Assumptions of ANOVA 
+❖ Independence  
+❖ Normality 
+❖ Homogeneity of variances 
+Hypotheses under ANOVA 
+The null hypothesis is that the means are all equal  
+H0: μ0 = μ1 = μ2 =−−−−−− − = μk
+
+The alternative hypothesis is that at least one of the means is different  
+H1≠: μ0≠ μ1≠ μ2≠ −−−−−−− ≠μk
+
+– Think about one of these things is not like the other. They don’t all have to be different, just one  of them.
+Types of ANOVA – ONE WAY ANOVA
+• In one way ANOVA only one factor is computed.  
+• It is also called single classification ANOVA.  
+• Only one factor is investigated in one way ANOVA.  
+• A one way ANOVA is used to compare two means from two  independent groups using the F-distribution.  
+• The null hypothesis for the test is that the two means are equal.  
+• Therefore, a (alternative hypothesis) significant result means that  the two means are unequal. 
+Two Way ANOVA
+▪ Two Way ANOVA is used when the data are classified on the  basis of two factors Two Way ANOVA is an extension of the  One Way ANOVA.  
+▪ Two Way ANOVA, there are two independent variables.  
+▪ Investigate two factors at the same time.  
+▪ In Two-Way ANOVA there is more than one experimental  factor and one or more control factors.  
+▪ It is also called double classification ANOVA. 
+t-test 
+► Student's t-test, in statistics, a method of testing hypotheses about the mean of a  small sample drawn from a normally distributed population when the population  standard deviation is unknown. 
+e.g.  
+► T-test is about means: distribution and evaluation for group distribution ► Withdrawn from the normal distribution 
+► The shape of distribution depends on the sample size and the sum of all distributions is  a normal distribution 
+
+Application of t-test 
+► t-test can be applied if 
+► Samples are randomly selected from population ► There is homogeneity of variance in sample  
+ 
+ 
+•Where: x1 is the mean of sample 1 •s1 is the standard deviation of sample 1 •n1 is the sample size of sample 1 •x2 is the mean of sample 2 
+•s2 is the standard deviation of sample 2 •n2 is the sample size in sample 2
+Repeat measures ANOVA
+► Repeated measures ANOVA is the equivalent of the one-way ANOVA, but for related, not  independent groups, and is the extension of the dependent t-test. 
+► A repeated measures ANOVA is also referred to as a within-subjects ANOVA or ANOVA for  correlated samples. All these names imply the nature of the repeated measures ANOVA, that  of a test to detect any overall differences between related means.  
+► This particular test requires one independent variable and one dependent variable. The  dependent variable needs to be continuous (interval or ratio) and the independent variable  categorical (either nominal or ordinal). 
+ 
+
+Benefits of Repeated Measures Designs
+► In statistical terms, we say that experimental blocks reduce the variance and bias of the  model’s error by controlling for factors that cause variability between subjects. The error  term contains only the variability within-subjects and not the variability between subjects.  The result is that the error term tends to be smaller, which produces the following benefits: 
+► Greater statistical power: By controlling for differences between subjects, this type of  design can have much more statistical power. If an effect exists, your statistical test is more  likely to detect it. 
+► Requires a smaller number of subjects: Because of the increased power, you can recruit  fewer people and still have a good probability of detecting an effect that truly exists. If  you’d need 20 people in each group for a design with independent groups, you might only  need a total of 20 for repeated measures. 
+► Faster and less expensive: The time and costs associated with administering repeated  measures designs can be much lower because there are fewer people to recruit, train, and  compensate. 
+► Time-related effects: As we saw, an independent groups design collects only one  measurement from each person. By collecting data from multiple points in time for each  subject, repeated measures designs can assess effects over time. This tracking is  particularly useful when there are potential time effects, such as learning or fatigue. 
+
+Waterfall plot 
+Code 
+ Sample Data 
+male age diabetes totChol sysbp11 sysbp12 diaBP BMI heartRate glucose TenYearCHD ctr yr_cat 
+1 39 0 195 106 14 70 26.97 80 77 0 China 1990 
+0 46 0 250 121 15 81 28.73 95 76 0 Thailand 1990 
+1 48 0 245 127.5 -7.5 80 25.34 75 70 0 Japan 1990 
+0 61 0 225 150 -20 95 28.58 65 103 1 South Corea 1990 
+0 46 0 285 130 10 84 23.1 85 85 0 China 1991 
+0 43 0 228 180 -20 110 30.3 77 99 0 Thailand 1991 
+0 63 0 205 138 18 71 33.11 60 85 1 Japan 1991 
+0 45 0 313 100 -20 71 21.68 79 78 0 South Corea 1991 
+1 52 0 260 141.5 19 89 26.36 76 79 0 Australia 1991 
+1 43 0 225 162 -40 107 23.61 93 88 0 United States 1991 
+0 50 0 254 133 -13 76 22.91 75 76 0 Singapore 1991 
+0 43 0 247 131 -11 88 27.64 72 61 0 Malaysia 1991
+Output  
+
